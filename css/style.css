@@ -1,0 +1,272 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    margin:0;
+    padding: 0;
+}
+h4{
+    text-transform: uppercase;
+    color:#4da647;
+    cursor: default;
+}
+p{
+    text-align: justify;
+    color:#333;
+    padding:20px;
+}
+header{
+    background: rgba(29,174,236,.6);
+    position: relative;
+    width:100%;
+    height: 100px;
+}
+#icono{
+    color:white;
+    cursor: pointer;
+}
+#logo img{
+    position: absolute;
+    left:20px;
+    width: 150px;
+    top:10px;
+}
+#loc{
+    position: absolute;
+    right: 20px;
+    top:45px;
+}
+#icono{
+    margin-left:10px;
+}
+header input[type=text]{
+    border-radius: 1em;
+    border:none;
+    height: 20px;
+    padding:5px;
+    width:150px;
+}
+#botones{
+    top:40px;
+    position: absolute;
+    right: 220px;
+}
+#botones ul li{
+    float:left;
+    list-style-type:none; 
+    margin:0 5px;
+    padding:8px;
+    cursor:pointer;
+    color:white;
+}
+
+#botones ul li:hover{
+    transition:.5s;
+    color:#eaeaea;
+}
+#cuenta{
+    border-left: 1px solid #eaeaea;
+}
+body{
+    display:block;
+    -webkit-box-shadow: 0px 0px 26px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 0px 26px 0px rgba(0,0,0,0.75);
+box-shadow: 0px 0px 26px 0px rgba(0,0,0,0.75);
+    width: 70%;
+    margin:auto;
+    background: url("../img/timo.jpg");
+    background-size:cover;
+    background-attachment: fixed;
+}
+nav{
+    border-top: 5px solid #1daeec;
+    position:relative;
+    height: 40px;
+    background:#f68320;
+    box-shadow: 0px 4px 16px -8px rgba(0,0,0,0.75);
+
+}
+nav ul{
+    background:yellow;
+    width:590px;
+    margin: auto;
+}
+nav ul li{
+    list-style-type:none;
+    float:left;
+    margin:5px;
+    padding:5px;
+    margin-top:5px;
+    border-radius:1em;
+    background:linear-gradient(#f47121,#f05222);
+    color:white;
+    cursor: pointer;
+}
+nav ul li:hover{
+    transition: .5s;
+    background: #4da647;
+}
+.escondido{
+    width: 20%;
+    display: none;
+    position:absolute;
+    background:#4da647;
+}
+#perros:hover .escondido{
+    transition:.3s;
+    z-index: 4;
+    display: block;
+}
+#peces:hover .escondido{
+    transition:.3s;
+    z-index: 4;
+    display: block;
+}
+#conejos:hover .escondido{
+    transition:.3s;
+    z-index: 4;
+    display: block;
+}
+#exoticos:hover .escondido{
+    transition:.3s;
+    z-index: 4;
+    display: block;
+}
+#gatos:hover .escondido{
+    transition:.3s;
+    z-index: 4;
+    display: block;
+}
+#aves:hover .escondido{
+    transition:.3s;
+    z-index: 4;
+    display: block;
+}
+#reptiles:hover .escondido{
+    transition:.3s;
+    z-index: 4;
+    display: block;
+}
+#roedores:hover .escondido{
+    transition:.3s;
+    z-index: 4;
+    display: block;
+}
+.escondido li{
+    border-radius: 0%;
+    background:transparent;
+    float: none;
+}
+#listauno li:hover{
+    z-index:3;
+    background:#479941;
+    display:block;
+}
+#listados li:hover{
+    z-index:3;
+    background:#479941;
+    display:block;
+}
+section{
+    width:100%;
+    height: auto;
+    background:#eaeaea;
+}
+#posicion{
+    position: relative;
+}
+#posicion img{
+    width: 60%;
+    display: block;
+    margin:0 auto;
+}
+.carousel{
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+}
+.carousel img{
+    cursor: pointer;
+    position: absolute;
+    flex:33.33333333%;
+    width: 33%;
+}
+#uno{
+    z-index: 2;
+    left:0;
+}
+#dos{
+    z-index: 1;
+    left:33%;
+}
+#tres{
+    z-index: 0;
+    left:66%;
+}
+#uno:hover{
+    transition: .3s;
+    width: 35%;
+}
+#dos:hover{
+    transition: .3s;
+    width: 35%;
+}#tres:hover{
+    transition: .3s;
+    width: 35%;
+}
+.seccion{
+    margin-top:36%;
+}
+#fin{
+    margin-top:33%;
+}
+footer{
+    position: relative;
+    width: 100%;
+    background:#f68320;
+    border-top:5px solid #1daeec;
+    height:320px;
+    display:flex;
+    flex-direction: row;
+}
+footer h4{
+    color: black;
+}
+#menu,#nosotros,#redesociales{
+    padding:30px;
+    flex:33%;
+}
+footer hr{
+    border:1px solid #1daeec;
+}
+#redesociales ul li{
+    float:left;
+    margin:10px;
+    font-size: 30px;
+}
+#redesociales ul li:nth-child(1):hover{
+    transition:.3s;
+    color:#3b5998;
+}
+#redesociales ul li:nth-child(2):hover{
+    transition:.3s;
+    color:#ffd000;
+}
+#redesociales ul li:nth-child(3):hover{
+    transition:.3s;
+    color:#00acee;
+}
+footer ul li{
+    cursor: pointer;
+    margin:10px;
+    list-style-type: none;
+    display:block;
+    color:white;
+}
+footer ul li:hover{
+    background:#f1801f;
+}
+@media only screen and (max-width:850px){
+    body{
+        width: 100%;
+    }
+}
